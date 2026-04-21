@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="My awesome music taste">
+    <meta name="author" content="Roham Oryn">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    
+<title>My Music taste</title> 
+<style>
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0em 2em 1em 2em;
+}
+
+#header {
+    background-color: rgb(229, 231, 230);
+    gap: 40px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around; 
+    list-style-type: none;
+    margin: 0em 0em 0em 0em;
+    padding: 0.625rem;
+    text-align: left;
+    color:black;
+}
+.menu  {
+    list-style-type: none;
+    font-family: "Roboto", "Inter", sans-serif; 
+    color:rgb(16, 4, 72);   
+}
+
+  .title {
+    text-align: center;
+    font-size: 200px;
+    padding:1.25rem 0.625rem 0.625rem 0.625rem;
+    font-family: Impact, Haettenschweiler, 'Roboto', sans-serif;
+}
+
+ .number-one, .number-two, .number-three {
+    font-size: 2.5rem;
+    text-align: left;
+    font-family: "Roboto", "Inter", sans-serif;
+    font-weight: bold;
+}
+
+.number-one{
+    color:rgb(4, 57, 54);
+}
+
+h2{
+    font-family: "Roboto", "Inter", sans-serif;
+    color:rgb(4, 57, 54);
+}
+.artist-one {
+    display: flex;
+    justify-content: space-between;
+    max-height: 25rem;
+    object-fit: fill;
+    gap: 1.25rem;
+    background-color: rgba(11, 52, 66, 0.5);
+}
+
+.line-break-one {
+border: 5px solid rgb(4, 57, 54);
+}
+
+.enhypen-spotify{
+    float:right;
+}
+
+.enhypen-img {
+    width: 46.875rem;
+    height: 25rem;
+    opacity:1.0;
+}
+
+.enhypen-img-two {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.enhypen-img:hover{
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.desc-one{
+    font-size: 1rem;
+    font-family: "Roboto", "Inter", sans-serif;
+    max-width: 25rem;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.desc-one:hover {
+    background-color: rgba(11, 52, 66, 0.7);
+}
+
+
+.artist-two {
+    display: flex;
+    justify-content: space-between;
+    max-height: 25rem;
+    object-fit: fill;
+    gap: 1.25rem;
+    background-color: rgba(4, 4, 4, 0.5);
+}
+
+.p1h-spotify{
+    float:right;
+}
+
+.p1h-img {
+    width: 46.875rem;
+    height: 25rem;
+    opacity:1.0;
+}
+
+.p1h-img:hover{
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.number-two{
+    color:rgb(22, 22, 22);
+}
+
+.desc-two{
+    font-size: 1rem;
+    font-family: "Roboto", "Inter", sans-serif;
+    max-width: 25rem;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.desc-two:hover {
+    background-color: rgba(75, 80, 82, 0.7);
+}
+
+.line-break-two {
+border: 5px solid rgb(28, 29, 29);
+}
+
+
+.artist-three {
+    display: flex;
+    justify-content: space-between;
+    max-height: 25rem;
+    object-fit: fill;
+    gap: 1.25rem;
+    background-color: rgba(31, 77, 186, 0.5);
+}
+
+.number-three{
+    color:rgb(24, 20, 59);
+}
+
+.svt-img {
+    width: 46.875rem;
+    height: 25rem;
+    opacity:1.0;
+}
+
+.svt-img:hover{
+    opacity: 0.5;
+    transition-duration: 1s;
+}
+
+.svt-spotify{
+    float:right;
+}
+
+.desc-three{
+    font-size: 1rem;
+    font-family: "Roboto", "Inter", sans-serif;
+    max-width: 25rem;
+    padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+    color: rgb(255, 255, 255);
+}
+
+
+.desc-three:hover {
+    background-color: rgba(30, 46, 136, 0.7);
+}
+
+.line-break-three {
+border: 5px solid rgb(16, 4, 72);
+}
+
+.kpoplinkone, .kpoplinktwo, .kpoplinkthree {
+    color:white;
+}
+
+
+.artist-one-two {
+    object-fit: fill;
+    background-color: rgb(51, 93, 81);
+    padding: 1.25rem;
+}
+</style>
+</head>
+<!--HELLO THIS IS COMMENT 1. navigation stuff :) -minimum 2 ->auto links -flexboxes -my playlists -sans serif font   -->
+<body>
+<div id="header">
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="stats.html">STATS</a></li>
+            <li><a href="info.html">INFO</a></li>
+        </ul>
+    </nav>
+</header>
+</div>
+
+<h1 class="title">My music taste</h1>
+<h1 class="number-one">Enhypen</h1>
+<div class="artist-one">
+
+     <img class="enhypen-img" src="https://rollingstoneindia.com/wp-content/uploads/2025/12/Enhypen_GroupPhoto_BeLift-scaled.jpg" alt="Image of the 7 member boy group ENHYPEN">
+     <p class="desc-one">
+        <i>Enhypen (Korean: 엔하이픈)</i> is a South Korean boy band formed by Belift Lab. Formerly a joint venture between CJ ENM and Hybe Corporation, the group was formed through the 2020 survival competition show I-Land. The group consists of six members: Jay, Jake, Sunghoon, Sunoo, Jungwon, and Ni-Ki. Originally a seven-piece ensemble, Heeseung left the group in March 2026. They debuted on November 30, 2020.
+    <br>
+    <br>
+        <a class="kpoplinkone" href="https://beliftlab.com/artist/profile/ENHYPEN">Enhypen's Official Website</a>
+    </p>
+
+     <iframe class="enhypen-spotify"data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/5t5FqBwTcgKTaWmfEbwQY9?utm_source=generator" width="55%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+</div>
+<div class="artist-one-two">
+    <h2 style="text-align: center;">Click each member's image to learn more: </h2>
+    <img class="enhypen-img-two" src="https://hips.hearstapps.com/hmg-prod/images/enhypen-profile-photo-1-1603227139.jpg" usemap="#workmap" alt="Image of the 7 member boy group ENHYPEN">
+    <map name="workmap">
+        <area alt="Jungwon, Enhypen member" target="_blank" href="https://www.enhypenguide.com/jungwon" coords="320,1198,592,602" shape="rect">
+        <area alt="Jake, Enhypen member" target="_blank" href="https://www.enhypenguide.com/jake" coords="898,594,609,1"  shape="rect">
+        <area alt="Sunghoon, Enhypen member" target="_blank" href="https://www.enhypenguide.com/sunghoon" coords="904,588,1199,6 shape="rect">
+        <area alt="Ni-ki, Enhypen member" target="_blank" href="https://www.enhypenguide.com/ni-ki" coords="612,1195,884,599" shape="rect">
+        <area alt="Heeseung, former Enhypen member" target="_blank"  href="https://www.enhypenguide.com/heeseung" coords="302,592,1,2" shape="rect">
+        <area alt="Jay, Enhypen member" target="_blank" href="https://www.enhypenguide.com/jay" coords="310,596,596,0"  shape="rect">
+        <area alt="Sunoo, Enhypen member" target="_blank" href="https://www.enhypenguide.com/sunoo" coords="4,1183,300,603"  shape="rect">
+    </map>
+</div>
+<hr class="line-break-one">
+<h1 class="number-two">P1Harmony</h1>
+<div class="artist-two">
+    <img class="p1h-img" src="https://www.rollingstone.co.uk/wp-content/uploads/sites/2/2025/05/%D8%8C%D8%B9P1H_8TH-MINI_H_ALL1.jpg" alt="Image of the 6 member boy group P1Harmony">
+    <p class="desc-two">
+        <i>P1Harmony (Korean: 피원하모니 Acronym: P1H)</i> is a South Korean boy band formed and managed by FNC Entertainment, consisting of Keeho, Theo, Jiung, Intak, Soul, and Jongseob. The group was introduced through the film <strong>P1H: The Beginning of a New World</strong> on August 27, 2020, and later debuted on October 28, 2020.
+    <br>
+    <br>
+        <a class="kpoplinktwo" href="https://www.fncent.com/P1Harmony/b/introduce/45597">P1Harmony's Official Website</a>
+    </p>
+
+    <iframe class="p1h-spotify"data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/3JjvsPeGMbDJqsphe2z8xU?utm_source=generator&theme=0" width="100%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+</div>
+<hr class="line-break-two">
+<h1 class="number-three">Seventeen</h1>
+<div class="artist-three">
+    <img class="svt-img" src="https://www.rollingstone.com/wp-content/uploads/2021/10/211015_SEVENTEEN.jpg?w=993&h=612&crop=1" alt="Image of the 7 member boy group P1Harmony">
+    <p class="desc-three">
+        <i>Seventeen (Korean: 세븐틴)</i> is a South Korean boy band. Formed by Pledis Entertainment, the group has members: S.Coups, Jeonghan, Joshua, Jun, Hoshi, Wonwoo, Woozi, DK, Mingyu, The8, Seungkwan, Vernon, and Dino. Seventeen is considered a "self-producing" idol group, with the members involved in songwriting, music production, and choreographing, among other aspects of their music and performances. 
+    <br>
+    <br>
+        <a class="kpoplinkthree" href="https://pledis.co.kr/artist/detail/seventeen/">Seventeen's Official Website</a>
+    </p>
+    
+<iframe class="svt-spotify" data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/artist/7nqOGRxlXj7N2JYbgNEjYH?utm_source=generator" width="55%" height="400" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+ </div>
+<hr class="line-break-three">
+<footer>
+    <a href="https://www.youtube.com/@strawhatcapy" class="youtube">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPG1RgIue207Kp12S-PFrKmkxfoCOpioUYAA&s" alt="Visit my YouTube channel" width="200" length="100">
+    </a>
+</footer>
+</body>
+</html>
